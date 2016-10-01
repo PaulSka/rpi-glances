@@ -1,2 +1,2 @@
 docker build -t rpi-glances . 
-docker run -d --name rpi-glances rpi-glances
+docker run -d -p 61208:61208 --name rpi-glances rpi-glances
