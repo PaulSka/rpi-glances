@@ -4,6 +4,7 @@ MAINTAINER LYSAKOWSKIM Mathieu (lysakowskimg@gmail.com)
 
 RUN apt-get update
 RUN apt-get install build-essential -y
+RUN apt-get install lm-sensors -y
 RUN pip install glances
 RUN pip install bottle requests batinfo https://bitbucket.org/gleb_zhulik/py3sensors/get/tip.tar.gz zeroconf netifaces pymdstat influxdb elasticsearch potsdb statsd pystache docker-py pysnmp pika py-cpuinfo bernhard cassandra scandir
 	
