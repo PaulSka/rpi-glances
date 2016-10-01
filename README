@@ -1,2 +1,2 @@
-docker build -t glances_img . 
-docker run -d --name glances glances_img
+docker build -t rpi-glances . 
+docker run -d --name rpi-glances rpi-glances

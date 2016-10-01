@@ -24,4 +24,8 @@ RUN pip install bottle \
 EXPOSE 61209
 EXPOSE 61208
 
+RUN apt-get remove build-essential -y
+
+RUN rm -rf /var/lib/apt/lists/*
+
 CMD glances -w
