@@ -1,0 +1,2 @@
+docker build -t glances_img . 
+docker run -d --name glances glances_img
